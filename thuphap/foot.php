@@ -1,0 +1,1 @@
+<div class="border"><a href="/">Home</a> | <a href="..">Back</a> | <a href="https://facebook.com/sharer/sharer.php?u=https://đồngtuấn.vn">Facebook</a></div><div class="footer">(c) Đồng Tuấn</a></div></body></html>

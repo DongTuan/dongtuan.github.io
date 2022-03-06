@@ -1,0 +1,4 @@
+<?php error_reporting(0); if(!isset($title))$title='Tools | Công cụ tiện ích online'; ?><!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><?=$title ?></title>  <meta http-equiv="Cache-Control" content="no-cache"> <meta name="description" content="Tạo Logo thư pháp"> <link rel="stylesheet" href="mobile.css" type="text/css" media="all"> <link rel="icon" href="https://đồngtuấn.vn/favicon.ico" type="image/x-icon">
+</head> <body><div id="header" align="center" style="background-color:black;background-image:url(https://đồngtuấn.vn/az/bgm.jpg);background-repeat:repeat-x;background-position:left top;font-size:50px;color:white;"><a href="/"> ĐồngTuấn.VN </a></div> <div class="shadow" align="center"><a href="/">Home</a>|<a href="/">Contact</a>|<a href="/">Help</a></div>

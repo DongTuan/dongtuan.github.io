@@ -1,0 +1,32 @@
+<?php
+putenv('GDFONTPATH=' . realpath('.'));
+$font=$_GET['font'];
+if (empty($font)) $font="Thuphap.ttf";
+$text=$_GET['text'];
+if (empty($text)) $text="Anh Yêu Em Mãi Mãi";
+$mauchu="#". $_GET['mauchu'];
+if (empty($mauchu)) $mauchu="#"."000000";
+$maunen="#" . $_GET['maunen"];
+if (empty($maunen)) $maunen="#"."FFFFFF";
+$nen=$_GET['nen'];
+if (empty($nen)) $nen="no";
+$redtext = hexdec(substr($mauchu, 1, 2));
+$greentext = hexdec(substr($mauchu, 3, 2));
+$bluetext = hexdec(substr($mauchu, 5, 2));
+$redback = hexdec(substr($maunen, 1, 2));
+$greenback = hexdec(substr($maunen, 3, 2));
+$blueback = hexdec(substr($maunen, 5, 2));
+$tsize=1+ $_GET['size'];
+if ($tsize==1) $tsize=18;
+$size = imagettfbbox($tsize, 0, $font, $text);
+$xsize = abs($size[0]) +abs($size[2]);
+$ysize = abs($size[5]) +  abs($size[1]);
+$image = imagecreate($xsize, $ysize);
+$blue = imagecolorallocate($image, $redback, $greenback, $blueback);
+$white = ImageColorAllocate($image, $redtext, $greentext, $bluetext);
+imagettftext($image, $tsize, 0, abs($size[0]), abs($size[5]), $white, $font, $text);
+if ($nen == "no") imagecolortransparent($image, $blue);
+header("Content-type: image/vnd.nok-oplogo-color");
+imagegif($image);
+imagedestroy($image);
+?>
