@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Mày có phải là chó không?</title>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<script type="text/javascript">
+var noIsHovered = function() {
+var button = document.getElementById("no");
+
+var top = Math.floor(Math.random() * 400);
+var left = Math.floor(Math.random() * 800);
+
+button.style.top = top;
+button.style.left = left;
+}
+
+var yesIsClicked = function() {
+alert("Tao biết mà =))");
+}
+
+window.onbeforeunload = function () {
+alert("Đm, định chạy làng ah, Ấn vào đây cũng có nghĩa : Mày là chó đấy :)) ");
+}
+</script>
+</head>
+
+<body>
+<h1>Mày có phải là chó không ??? </h1>
+<button id="yes" onclick="yesIsClicked();" style="position: absolute; left: 100px; top: 100px; width: 100px"> Ờ, tao là chó </button>
+<button id="no" onmouseover="noIsHovered();" style="position: absolute; left: 300px; top: 100px; width: 200px"> không, không phải </button>
+<script language="JavaScript" type="text/javascript">
+window.onbeforeunload = confirmExit;
+function confirmExit()
+{
+return "Đm, định chạy làng ah, Ấn vào đây cũng có nghĩa : Mày là chó đấy :]] .. Cơ mà chào mày, chúc mày luôn may mắn";
+}
+</script>
+
+</body>
+</html>
