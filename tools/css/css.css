@@ -1,0 +1,837 @@
+@charset "utf-8";
+
+/* Table Of Contents
+----------------------------------------
+
+# gNav
+# content
+# clearfix
+
+----------------------------------------*/
+
+
+/* # gNav
+---------------------------------------------------------------------------- */
+
+#gNav div ul li#gNav03 a,
+#gNav div ul li#gNav03 a:hover {
+	background: url(/common/images/bg_gnav_o.gif) repeat-x left top;
+	text-decoration: none;
+}
+
+#globalFooter ul.linkStyle li p.fLinkReference a {
+	background: url(/common/images/ico_arrow04_o.gif) no-repeat left center;
+}
+
+
+/* # content
+---------------------------------------------------------------------------- */
+
+table {
+	width: 710px;
+}
+
+table th,
+table td {
+	border: 1px solid #acbed4;
+	padding: 3px 10px;
+}
+
+table th {
+	background: #e4ebf2;
+	color: #12537f;
+	font-weight: bold;
+}
+
+.bgYellow {
+	background: #ffff00;
+}
+
+.grey {
+	color: #999;
+	font-style: italic;
+}
+
+p.hometown {
+	background: yellow;
+}
+
+div.bgPos {
+	background: #fff url(../images/bg_dog.gif);
+	background-repeat: no-repeat;
+	background-position: 50px 60px;
+	height: 150px;
+}
+
+p#hometown {
+	background: green;
+}
+
+div.bgR * {
+	background: red;
+}
+
+.noneBg {
+	background: none!important;
+}
+
+div.before p:before {
+	content: "Noi dung - ";
+}
+
+div.after p:after {
+	content: " ++Noi dung";
+}
+
+div#content p.note {
+	font-style: italic;
+	padding-top: 20px;
+}
+
+div#content p.noteText {
+	font-style: italic;
+}
+
+div#content div.sourceTxt p.bgImg {
+	background-image: url(../images/bg_img_rose.gif);
+}
+
+p.bgRepeat {
+	background: url(../images/bg_dog.gif) repeat 0 0;
+	border: 3px dotted #000;
+	padding-bottom: 100px;
+}
+
+p.bgRepeatX {
+	background: url(../images/bg_dog.gif) repeat-x 0 0;
+	border: 3px dotted #000;
+	margin-top: 20px;
+	padding-bottom: 100px;
+}
+
+p.bgRepeatY {
+	background: url(../images/bg_dog.gif) repeat-y 0 0;
+	border: 3px dotted #000;
+	margin-top: 20px;
+	padding-bottom: 100px;
+}
+
+
+/* # border
+---------------------------------------------------------------------------- */
+
+p.bdrTopRed {
+	border-top: 2px solid #ff0000;
+}
+
+p.bdrRightRed {
+	border-right: 2px solid #ff0000;
+}
+
+p.bdrBottomRed {
+	border-bottom: 2px solid #ff0000;
+}
+
+p.bdrLeftRed {
+	border-left: 2px solid #ff0000;
+}
+
+p.bdrRed {
+	border: 2px solid #ff0000;
+}
+
+p.bdrNone {
+	border: none;
+}
+
+p.bdrHidden {
+	border: hidden;
+}
+
+p.bdrDotted {
+	border: 4px dotted #000;
+}
+
+p.bdrDashed {
+	border: 4px dashed #000;
+}
+
+p.bdrSolid {
+	border: 4px solid #000;
+}
+
+p.bdrDouble {
+	border: 4px double #000;
+}
+
+p.bdrGroove {
+	border: 4px groove #000;
+}
+
+p.bdrRidge {
+	border: 4px ridge #000;
+}
+
+p.bdrInset {
+	border: 4px inset #000;
+}
+
+p.bdrOutset {
+	border: 4px outset #000;
+}
+
+
+/* # border-collapse
+---------------------------------------------------------------------------- */
+
+div.exBrowser table.tableReset {
+	border-collapse: separate;
+    border-spacing: 2px;
+	width: 120px!important;
+}
+
+div.exBrowser table.tableReset th {
+	font-weight: bold;
+	text-align: center;
+}
+
+div.exBrowser table.tableReset th,
+div.exBrowser table.tableReset td {
+	padding: 0;
+}
+
+div.exBrowser table.bdrCollapse {
+	border-collapse: collapse;
+}
+
+
+/* # border-spacing
+---------------------------------------------------------------------------- */
+
+div.exBrowser table.bdrSpacing {
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+div.exBrowser table.bdrSpacing02 {
+	border-collapse: separate;
+	border-spacing: 10px 30px;
+}
+
+
+/* # Vị trí
+---------------------------------------------------------------------------- */
+
+div.bottomPr,
+div.leftPr,
+div.rightPr,
+div.topPr {
+	border: 1px solid #ff0000;
+	height: 100px;
+	position: relative;
+}
+
+div.bottomPr p,
+div.leftPr p,
+div.rightPr p,
+div.topPr p {
+	position: absolute;
+}
+
+div.bottomPr p.bottom { 
+	bottom: 10px;
+}
+
+div.leftPr p.left { 
+	left: 30px;
+}
+
+div.rightPr p.right { 
+	right: 30px;
+}
+
+div.topPr p.top { 
+	top: 30px;
+}
+
+
+
+/* # caption-side
+---------------------------------------------------------------------------- */
+
+table.tableCaption caption {
+	caption-side: bottom;
+}
+
+
+/* # clear
+---------------------------------------------------------------------------- */
+
+p.exFloat {
+	float: left;
+}
+
+p.exClear {
+	clear: left;
+}
+
+
+/* # clip
+---------------------------------------------------------------------------- */
+
+p.exClip {
+	height: 125px;
+}
+
+p.exClip img {
+	clip: rect(48px, 126px, 80px, 5px);
+	position: absolute;
+}
+
+
+/* # color
+---------------------------------------------------------------------------- */
+
+p.exColor {
+	color: #ff0000;
+}
+
+
+/* # content
+---------------------------------------------------------------------------- */
+
+p.exContent:after {
+	content: ": kiến thức nhỏ cho web hiện đại.";
+}
+
+
+/* # counter-increment
+---------------------------------------------------------------------------- */
+
+div.exCounter p:before {
+	counter-increment: tenBatKy;
+	content: counter(tenBatKy) ".";
+}
+
+
+/* # cursor
+---------------------------------------------------------------------------- */
+
+.cursorAuto { cursor: auto; }
+.cursorCrosshair { cursor: crosshair; }
+.cursorDefault { cursor: default; }
+.cursorEresize { cursor: e-resize; }
+.cursorHelp { cursor: help; }
+.cursorMove { cursor: move; }
+.cursorNresize { cursor: n-resize; }
+.cursorNeresize { cursor: ne-resize; }
+.cursorNwresize { cursor: nw-resize; }
+.cursorPointer { cursor: pointer; }
+.cursorProgress { cursor: progress; }
+.cursorSresize { cursor: s-resize; }
+.cursorSeresize { cursor: se-resize; }
+.cursorSwresize { cursor: sw-resize; }
+.cursorText { cursor: text; }
+.cursorWait { cursor: wait;}
+.cursorWresize { cursor: w-resize; }
+
+
+/* # direction
+---------------------------------------------------------------------------- */
+
+p.directionLtr {
+	direction: ltr;
+}
+
+p.directionRtl {
+	direction: rtl;
+}
+
+
+/* # empty-cells
+---------------------------------------------------------------------------- */
+
+table.emptyCells {
+	empty-cells: hide;
+}
+
+
+/* # direction
+---------------------------------------------------------------------------- */
+
+p.displayInline {
+	display: inline;
+}
+
+
+/* # float
+---------------------------------------------------------------------------- */
+
+p.floatL {
+	float: left;
+}
+
+p.floatR {
+	float: right;
+}
+
+
+/* # font
+---------------------------------------------------------------------------- */
+
+p.exFont {
+	font-size: 150%;
+}
+
+
+/* # height
+---------------------------------------------------------------------------- */
+
+p.exHeight {
+	background: #ccc;
+	height: 100px;
+}
+
+
+/* # letter-spacing
+---------------------------------------------------------------------------- */
+
+p.exLetterSpacing {
+	letter-spacing: 5px;
+}
+
+
+/* # line-height
+---------------------------------------------------------------------------- */
+
+p.exLineHeight {
+	line-height: 2.5;
+}
+
+
+/* # list-style
+---------------------------------------------------------------------------- */
+
+ul.ulReset {
+	padding: 0 0 0 30px;
+}
+
+ul.armenianList {
+	list-style-type: armenian;
+}
+
+ul.circleList {
+	list-style-type: circle;
+}
+
+ul.cjkList {
+	list-style-type: cjk-ideographic;
+}
+
+ul.decimalList {
+	list-style-type: decimal;
+}
+
+ul.dlzList {
+	list-style-type: decimal-leading-zero;
+}
+
+ul.discList {
+	list-style-type: disc;
+}
+
+ul.georgianList {
+	list-style-type: georgian;
+}
+
+ul.hebrewList {
+	list-style-type: hebrew;
+}
+
+ul.hiraganaList {
+	list-style-type: hiragana;
+}
+
+ul.hiraganaIList {
+	list-style-type: hiragana-iroha;
+}
+
+ul.katakanaList {
+	list-style-type: katakana;
+}
+
+ul.katakanaIList {
+	list-style-type: katakana-iroha;
+}
+
+ul.lowerAlphaList {
+	list-style-type: lower-alpha;
+}
+
+ul.lowerGreekList {
+	list-style-type: lower-greek;
+}
+
+ul.lowerLatinList {
+	list-style-type: lower-latin;
+}
+
+ul.lowerRomanList {
+	list-style-type: lower-roman;
+}
+
+ul.squareList {
+	list-style-type: square;
+}
+
+ul.alphaList {
+	list-style-type: upper-alpha;
+}
+
+ul.upperLatinList {
+	list-style-type: upper-latin;
+}
+
+ul.upperRomanList {
+	list-style-type: upper-roman;
+}
+
+
+/* # margin
+---------------------------------------------------------------------------- */
+
+div.marginPr {
+	border: 1px solid red;
+}
+
+div.marginPr p {
+	background: #66CC00;
+}
+
+div.marginStyle p {
+	margin: 10px 0 0 0;
+}
+
+
+/* # max-height
+---------------------------------------------------------------------------- */
+
+div.maxPr {
+	border: 1px solid red;
+}
+
+div.maxHeightStyle {
+	max-height: 60px;
+}
+
+
+/* # max-width
+---------------------------------------------------------------------------- */
+
+div.widthPr {
+	border: 1px solid red;
+}
+
+div.maxWidthStyle {
+	max-width: 120px;
+}
+
+
+/* # min-height
+---------------------------------------------------------------------------- */
+
+div.minPr {
+	border: 1px solid red;
+}
+
+div.minHeightStyle {
+	min-height: 180px;
+}
+
+
+/* # min-width
+---------------------------------------------------------------------------- */
+
+div.widthPr {
+	border: 1px solid red;
+}
+
+div.minWidthStyle {
+	min-width: 200px;
+}
+
+
+/* # overflow
+---------------------------------------------------------------------------- */
+
+p.overHeight {
+	border: 1px solid red;
+	height: 100px;
+}
+
+p.overflow {
+	overflow: hidden;
+}
+
+
+/* # outline
+---------------------------------------------------------------------------- */
+
+p.dottedOutline {
+	outline-style: dotted;
+}
+
+p.dashedOutline {
+	outline-style: dashed;
+}
+
+p.solidOutline {
+	outline-style: solid;
+}
+
+p.doubleOutline {
+	outline-style: double;
+}
+
+p.grooveOutline {
+	outline-style: groove;
+}
+
+p.ridgeOutline {
+	outline-style: ridge;
+}
+
+p.insetOutline {
+	outline-style: inset;
+}
+
+p.outsetOutline {
+	outline-style: outset;
+}
+
+p.outlineEx {
+	outline: 5px double red;
+}
+
+
+/* # padding
+---------------------------------------------------------------------------- */
+
+div.paddingPr {
+	border: 1px solid red;
+}
+
+div.paddingPr p {
+	background: #66CC00;
+}
+
+div.paddingStyle p {
+	padding: 20px 0 0 0;
+}
+
+
+/* # page-break-after
+---------------------------------------------------------------------------- */
+
+p.breakAfter {
+	page-break-after: always;
+}
+
+
+/* # page-break-before
+---------------------------------------------------------------------------- */
+
+p.breakInside {
+	page-break-inside: always;
+}
+
+
+/* # page-break-before
+---------------------------------------------------------------------------- */
+
+p.breakBefore {
+	page-break-before: always;
+}
+
+
+/* # position
+---------------------------------------------------------------------------- */
+
+div.positionPr {
+	border: 1px solid red;
+	height: 80px;
+}
+
+div.positionPr p {
+	background: #00CCFF;
+	width: 80px;
+}
+
+div.positionRe {
+	position: relative;
+}
+
+div.positionPr p.positionAb {
+	right: -20px;
+	position: absolute;
+	top: 15px;
+}
+
+
+/* # quotes
+---------------------------------------------------------------------------- */
+
+p.quotesPr {
+	quotes:'«' '»';
+}
+
+
+/* # table-layout
+---------------------------------------------------------------------------- */
+
+table.tableLayoutPr {
+	table-layout: fixed;
+}
+
+
+/* # text-align
+---------------------------------------------------------------------------- */
+
+p.alignLeft {
+	text-align: left;
+}
+
+p.alignCenter {
+	text-align: center;
+}
+
+p.alignRight {
+	text-align: right;
+}
+
+
+/* # text-decoration
+---------------------------------------------------------------------------- */
+
+p.lineUnder {
+	text-decoration: underline;
+}
+
+p.lineOver {
+	text-decoration: overline;
+}
+
+p.lineThrough {
+	text-decoration: line-through;
+}
+
+p.lineBlink {
+	text-decoration: blink;
+}
+
+
+/* # text-indent
+---------------------------------------------------------------------------- */
+
+p.textIndentPr {
+	text-indent: 30px;
+}
+
+
+/* # text-transform
+---------------------------------------------------------------------------- */
+
+p.capitalizeText {
+	text-transform: capitalize;
+}
+
+p.uppercaseText {
+	text-transform: uppercase;
+}
+
+p.lowercaseText {
+	text-transform: lowercase;
+}
+
+
+/* # vertical-align
+---------------------------------------------------------------------------- */
+
+p.vAlignPr span {
+	vertical-align: super;
+}
+
+
+/* # visibility
+---------------------------------------------------------------------------- */
+
+p.visibility {
+	visibility: hidden;
+}
+
+
+/* # white-space
+---------------------------------------------------------------------------- */
+
+p.whiteSpace span {
+	white-space: nowrap;
+}
+
+
+/* # width
+---------------------------------------------------------------------------- */
+
+p.widthBg {
+	background: #ccc;
+}
+
+p.widthPr {
+	background: #ccc;
+	width: 200px;
+}
+
+
+/* # word-spacing
+---------------------------------------------------------------------------- */
+
+p.wordSpacing {
+	word-spacing: 20px;
+}
+
+
+/* # z-index
+---------------------------------------------------------------------------- */
+
+div.zIndexPr {
+	position: relative;
+}
+
+div.zIndexPr p.element01 {
+	background: red;
+	height: 50px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 200px;
+}
+
+div.zIndexPr p.element02 {
+	background: green;
+	height: 50px;
+	left: 30px;
+	position: absolute;
+	top: 30px;
+	width: 200px;
+}
+
+div.zIndexPr p.zIndex {
+	z-index: 1;
+}
+
+
+/* # clearfix
+---------------------------------------------------------------------------- */
+
+#gNav div ul li#gNav03 a img {
+	visibility: hidden;
+}

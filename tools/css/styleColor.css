@@ -1,0 +1,141 @@
+.dd{text-align: center; color: #000000; text-decoration: none; font-weight: bold; border: 0px; background-color: #eefaff;}
+
+.resform{font-weight: bold; border: 1px #009bff solid; background-color: #bbc7dd;}
+
+.main{background-color: #009bff;}
+
+.cbor{border: 1px solid #aaeeff;}
+
+.chead{background-color: #cedadf; color: #444499; font-weight: bold;}
+
+.content{background-color: #eefaff;}
+
+.inner{background-color: #bbc7dd;}
+
+.innerc{background-color: #ffffff;}
+
+.bottom{margin-left: 40px; margin-right: 40px; color: 040404;}
+
+
+
+.sfon {font-size: 13px; font-family: arial, verdana, san-serif; background-color: #fefefe;}
+
+.sfon1 {font-size: 13px; font-family: arial, verdana, san-serif; background-color: #fefeee;}
+
+a#a1{color: #4444ff; text-decoration: none;}
+
+a#a2{color: #4444a0; text-decoration: none;}
+
+.top{margin-left: 10px; margin-right: 10px; background-color: #efefef; border: 1px solid #ababab;}
+
+.top1{font-size: 13px; padding:15px; font-family: arial, verdana, san-serif;}
+
+.fnt21{text-decoration: none; color: black;}
+.fnt21:visited{text-decoration: none; color: black;}
+.fnt21:hover{text-decoration: none; color: blue;}
+ .seper1{background-color:#38ACEC;}
+.ta3{text-decoration: none; color:white;}
+.ta2{text-decoration: none; color:blue; height:33px;}
+.ta1{text-decoration: none; border :1px  solid #0063DC ; }
+.link{font-family: verdana, arial, san-serif; font-size: 13px; color: #ab4a34;}
+
+.form{color: #0033ff; font-size:-1;}
+
+.shade{background-color: #bbddff;}
+
+.calc{border: 2px groove #009bff; background-color: #fafafa; cursor: pointer;}
+
+.bac{text-align:right; background-color: #bbddff; border: 0px; font-weight:bold;}
+
+.bac1{background-color: #bbddff; border: 0px; font-weight:bold;}
+
+.slash{padding:3px; vertical-align: -10px; font-size:27px; font-weight:bold; color: #009bff;padding-top:2px; padding-bottom:2px;}
+
+.col{background-color: #edfbfa;padding-top:2px; padding-bottom:2px;}
+
+.col1{background-color: #cdebfa;}
+
+.col2{background-color: #adebfa;}
+
+.index{background-color: #F8F8F8;}
+
+
+
+.fnt{background-color: #ffffff; width: 60px; height: 23px; color: #000000;}
+
+.fnt1{background-color: #eefaff;  color: #000000; font-style: normal; font-wieght: 800; font-size: 15px;}
+
+.inv{background-color: #bbc7dd; width: 60px; height: 23px;}
+
+.res{height: 100%; width: 100%; font-size: 10px; overflow: auto;}
+
+.res1{color: #000000; border: 1px #aeddaa dotted;}
+
+
+
+.links{text-decoration: none; color: #150517; font-size:12px; font-family: verdana, san-serif; padding-left:3px;}
+
+.links:hover{text-decoration: none; color: #6768ff;}
+
+.links1{text-decoration: none; color: #4444ff; font-size: 13px; font-family: arial, verdana, san-serif; font-weight: bold;}
+
+.links1:hover{text-decoration: none; color: #000088;}
+
+.headi{text-decoration: none; font-size: 17px; font-weight: bold; font-family: san-serif, verdana, arial;}
+
+.centerbox{font-size: 13px; font-family: verdana, arial, san-serif, serif; border: 3px #9a9a9a solid; border:0px; padding-top: 10px; margin: 0px;}
+
+.seper{ background-color: 009BFF;}
+
+.fon{text-decoration: none; color: #0063DC;}
+
+.fon:visited{text-decoration: none; color: #1c86aa;}
+
+.fon:hover{text-decoration: none; color: #3300ff;}
+
+table{font-size: 13px; font-family: verdana, arial, san-serif; }
+
+.foot{font-size: 14px; color: blue; font-family: arial, verdana, san-serif; padding-left:10px; padding-right:10px;}
+
+.fnt2{text-decoration: none; color: black;}
+
+.fnt2:visited{text-decoration: none; color: black;}
+
+.fnt2:hover{text-decoration: none; color: red;}
+
+
+
+.bgc1{background-color: #efefef;}
+
+.bgc2{background-color: #dedede;}
+
+
+
+.ss{ border: 1px solid #009bff;}
+
+.nmetals{background-color:#C59F8C;}
+
+.onmetals{background-color:#91EB43;}
+
+.alkali{background-color:#E0F237;}
+
+.earth{background-color:#9692CC;}
+
+.trans{background-color:#B2F1E6;}
+
+.rare{background-color:#F5D47B;}
+
+.other{background-color:#84BAF8;}
+
+.ngases{background-color:#2E2EFE;}
+
+.halogens{background-color:#E97BF5;}
+
+.sh{background-color: #F6CECE;}
+
+.solid{text-decoration:none; color:#000000; font-weight: bold;}
+
+.liquid{text-decoration:none; color:#ff2222; font-weight: bold;}
+
+.gas{text-decoration:none; color:#ffffff; font-weight: bold;}
+
